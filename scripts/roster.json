@@ -1,0 +1,1226 @@
+[
+  {
+    "name": "Charizard GX",
+    "set": "Burning Shadows",
+    "number": "150/147",
+    "year": 2017,
+    "rarity": "Other",
+    "hype": 98
+  },
+  {
+    "name": "Mewtwo GX",
+    "set": "Shining Legends",
+    "number": "78/73",
+    "year": 2017,
+    "rarity": "Other",
+    "hype": 91
+  },
+  {
+    "name": "Rayquaza GX",
+    "set": "Celestial Storm",
+    "number": "177/168",
+    "year": 2018,
+    "rarity": "Other",
+    "hype": 93
+  },
+  {
+    "name": "Lillie",
+    "set": "Ultra Prism",
+    "number": "151/156",
+    "year": 2018,
+    "rarity": "Other",
+    "hype": 83
+  },
+  {
+    "name": "Pikachu",
+    "set": "Cosmic Eclipse",
+    "number": "241/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 97
+  },
+  {
+    "name": "Charizard GX",
+    "set": "Hidden Fates",
+    "number": "SV49/SV94",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 98
+  },
+  {
+    "name": "Reshiram & Charizard GX",
+    "set": "Unbroken Bonds",
+    "number": "217/214",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 98
+  },
+  {
+    "name": "Mewtwo & Mew GX",
+    "set": "Unified Minds",
+    "number": "242/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 95
+  },
+  {
+    "name": "Pikachu VMAX",
+    "set": "Vivid Voltage",
+    "number": "188/185",
+    "year": 2020,
+    "rarity": "Other",
+    "hype": 97
+  },
+  {
+    "name": "Tyranitar V",
+    "set": "Battle Styles",
+    "number": "155/163",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 89
+  },
+  {
+    "name": "Galarian Moltres V",
+    "set": "Chilling Reign",
+    "number": "177/198",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 84
+  },
+  {
+    "name": "Glaceon V",
+    "set": "Evolving Skies",
+    "number": "175/203",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 90
+  },
+  {
+    "name": "Umbreon V",
+    "set": "Evolving Skies",
+    "number": "189/203",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 99
+  },
+  {
+    "name": "Dragonite V",
+    "set": "Evolving Skies",
+    "number": "192/203",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 91
+  },
+  {
+    "name": "Rayquaza V",
+    "set": "Evolving Skies",
+    "number": "194/203",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 93
+  },
+  {
+    "name": "Celebi V",
+    "set": "Fusion Strike",
+    "number": "245/264",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 83
+  },
+  {
+    "name": "Espeon VMAX",
+    "set": "Fusion Strike",
+    "number": "270/264",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 94
+  },
+  {
+    "name": "Gengar VMAX",
+    "set": "Fusion Strike",
+    "number": "271/264",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 98
+  },
+  {
+    "name": "Machamp V",
+    "set": "Astral Radiance",
+    "number": "172/189",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 84
+  },
+  {
+    "name": "Charizard V",
+    "set": "Brilliant Stars",
+    "number": "154/172",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 98
+  },
+  {
+    "name": "Giratina V",
+    "set": "Lost Origin",
+    "number": "186/196",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 94
+  },
+  {
+    "name": "Lugia V",
+    "set": "Silver Tempest",
+    "number": "186/195",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 93
+  },
+  {
+    "name": "Suicune V",
+    "set": "Crown Zenith",
+    "number": "GG38/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 84
+  },
+  {
+    "name": "Glaceon VSTAR",
+    "set": "Crown Zenith",
+    "number": "GG40/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 89
+  },
+  {
+    "name": "Mewtwo VSTAR",
+    "set": "Crown Zenith",
+    "number": "GG44/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 92
+  },
+  {
+    "name": "Giratina VSTAR",
+    "set": "Crown Zenith",
+    "number": "GG69/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 94
+  },
+  {
+    "name": "Arceus VSTAR",
+    "set": "Crown Zenith",
+    "number": "GG70/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 90
+  },
+  {
+    "name": "Charizard ex",
+    "set": "Obsidian Flames",
+    "number": "223/197",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 98
+  },
+  {
+    "name": "Magikarp",
+    "set": "Paldea Evolved",
+    "number": "203/193",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 94
+  },
+  {
+    "name": "Tyranitar",
+    "set": "Paldea Evolved",
+    "number": "222/193",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 87
+  },
+  {
+    "name": "Iono",
+    "set": "Paldea Evolved",
+    "number": "269/193",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 83
+  },
+  {
+    "name": "Groudon",
+    "set": "Paradox Rift",
+    "number": "199/182",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 88
+  },
+  {
+    "name": "Roaring Moon ex",
+    "set": "Paradox Rift",
+    "number": "251/182",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 83
+  },
+  {
+    "name": "Bulbasaur",
+    "set": "Scarlet & Violet 151",
+    "number": "166/165",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 90
+  },
+  {
+    "name": "Squirtle",
+    "set": "Scarlet & Violet 151",
+    "number": "170/165",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 92
+  },
+  {
+    "name": "Pikachu",
+    "set": "Scarlet & Violet 151",
+    "number": "173/165",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 97
+  },
+  {
+    "name": "Dragonair",
+    "set": "Scarlet & Violet 151",
+    "number": "181/165",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 85
+  },
+  {
+    "name": "Charizard ex",
+    "set": "Scarlet & Violet 151",
+    "number": "199/165",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 98
+  },
+  {
+    "name": "Zapdos ex",
+    "set": "Scarlet & Violet 151",
+    "number": "202/165",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 87
+  },
+  {
+    "name": "Mew ex",
+    "set": "Scarlet & Violet 151",
+    "number": "205/165",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 95
+  },
+  {
+    "name": "Houndoom",
+    "set": "Shrouded Fable",
+    "number": "066/064",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 85
+  },
+  {
+    "name": "Persian",
+    "set": "Shrouded Fable",
+    "number": "078/064",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 84
+  },
+  {
+    "name": "Bulbasaur",
+    "set": "Stellar Crown",
+    "number": "143/142",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 90
+  },
+  {
+    "name": "Squirtle",
+    "set": "Stellar Crown",
+    "number": "148/142",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 92
+  },
+  {
+    "name": "Dachsbun ex",
+    "set": "Stellar Crown",
+    "number": "169/142",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 73
+  },
+  {
+    "name": "Milotic ex",
+    "set": "Surging Sparks",
+    "number": "237/191",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 86
+  },
+  {
+    "name": "Pikachu ex",
+    "set": "Surging Sparks",
+    "number": "238/191",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 98
+  },
+  {
+    "name": "Latias ex",
+    "set": "Surging Sparks",
+    "number": "239/191",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 90
+  },
+  {
+    "name": "Gastly",
+    "set": "Temporal Forces",
+    "number": "177/162",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 90
+  },
+  {
+    "name": "Raging Bolt ex",
+    "set": "Temporal Forces",
+    "number": "208/162",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 81
+  },
+  {
+    "name": "Eevee",
+    "set": "Twilight Masquerade",
+    "number": "188/167",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 95
+  },
+  {
+    "name": "Greninja ex",
+    "set": "Twilight Masquerade",
+    "number": "214/167",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 95
+  },
+  {
+    "name": "Carmine",
+    "set": "Twilight Masquerade",
+    "number": "217/167",
+    "year": 2024,
+    "rarity": "SIR",
+    "hype": 84
+  },
+  {
+    "name": "Team Rocket's Mewtwo ex",
+    "set": "Destined Rivals",
+    "number": "231/182",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 92
+  },
+  {
+    "name": "Cynthia's Garchomp ex",
+    "set": "Destined Rivals",
+    "number": "232/182",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 85
+  },
+  {
+    "name": "Lillie's Clefairy ex",
+    "set": "Journey Together",
+    "number": "184/159",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 88
+  },
+  {
+    "name": "N's Zoroark ex",
+    "set": "Journey Together",
+    "number": "185/159",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 84
+  },
+  {
+    "name": "Bulbasaur",
+    "set": "Mega Evolution",
+    "number": "133/132",
+    "year": 2025,
+    "rarity": "IR",
+    "hype": 90
+  },
+  {
+    "name": "Ivysaur",
+    "set": "Mega Evolution",
+    "number": "134/132",
+    "year": 2025,
+    "rarity": "IR",
+    "hype": 81
+  },
+  {
+    "name": "Mega Absol ex",
+    "set": "Mega Evolution",
+    "number": "180/132",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 86
+  },
+  {
+    "name": "Mega Latias ex",
+    "set": "Mega Evolution",
+    "number": "181/132",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 89
+  },
+  {
+    "name": "Mega Kangaskhan ex",
+    "set": "Mega Evolution",
+    "number": "182/132",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 80
+  },
+  {
+    "name": "Acerola's Mischief",
+    "set": "Mega Evolution",
+    "number": "183/132",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 83
+  },
+  {
+    "name": "Lillie's Determination",
+    "set": "Mega Evolution",
+    "number": "184/132",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 88
+  },
+  {
+    "name": "Espeon ex",
+    "set": "Prismatic Evolutions",
+    "number": "155/131",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 94
+  },
+  {
+    "name": "Sylveon ex",
+    "set": "Prismatic Evolutions",
+    "number": "156/131",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 94
+  },
+  {
+    "name": "Umbreon ex",
+    "set": "Prismatic Evolutions",
+    "number": "161/131",
+    "year": 2025,
+    "rarity": "SIR",
+    "hype": 99
+  },
+  {
+    "name": "Mew ex",
+    "set": "30th Celebration",
+    "number": "152/128",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 95
+  },
+  {
+    "name": "Mega Gengar ex",
+    "set": "Ascended Heroes",
+    "number": "284/217",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 98
+  },
+  {
+    "name": "Mega Greninja ex",
+    "set": "Chaos Rising",
+    "number": "116/086",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 96
+  },
+  {
+    "name": "Clefairy",
+    "set": "Perfect Order",
+    "number": "094/088",
+    "year": 2026,
+    "rarity": "IR",
+    "hype": 83
+  },
+  {
+    "name": "Mega Zygarde ex",
+    "set": "Perfect Order",
+    "number": "120/088",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 84
+  },
+  {
+    "name": "Meowth ex",
+    "set": "Perfect Order",
+    "number": "121/088",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 89
+  },
+  {
+    "name": "Mega Zeraora ex",
+    "set": "Pitch Black",
+    "number": "114/084",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 84
+  },
+  {
+    "name": "Mega Darkrai ex",
+    "set": "Pitch Black",
+    "number": "116/084",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 88
+  },
+  {
+    "name": "Morpeko ex",
+    "set": "Pitch Black",
+    "number": "117/084",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 82
+  },
+  {
+    "name": "Torkoal",
+    "set": "Cosmic Eclipse",
+    "number": "237/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 70
+  },
+  {
+    "name": "Weavile",
+    "set": "Cosmic Eclipse",
+    "number": "238/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 77
+  },
+  {
+    "name": "Piplup",
+    "set": "Cosmic Eclipse",
+    "number": "239/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 85
+  },
+  {
+    "name": "Wishiwashi",
+    "set": "Cosmic Eclipse",
+    "number": "240/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 64
+  },
+  {
+    "name": "Koffing",
+    "set": "Cosmic Eclipse",
+    "number": "243/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 75
+  },
+  {
+    "name": "Gallade",
+    "set": "Cosmic Eclipse",
+    "number": "244/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 74
+  },
+  {
+    "name": "Excadrill",
+    "set": "Cosmic Eclipse",
+    "number": "246/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 65
+  },
+  {
+    "name": "Steelix",
+    "set": "Cosmic Eclipse",
+    "number": "247/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 73
+  },
+  {
+    "name": "Stoutland",
+    "set": "Cosmic Eclipse",
+    "number": "248/236",
+    "year": 2019,
+    "rarity": "Other",
+    "hype": 64
+  },
+  {
+    "name": "Galarian Slowking V",
+    "set": "Chilling Reign",
+    "number": "179/198",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 77
+  },
+  {
+    "name": "Golurk V",
+    "set": "Evolving Skies",
+    "number": "182/203",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 74
+  },
+  {
+    "name": "Noivern V",
+    "set": "Evolving Skies",
+    "number": "196/203",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 77
+  },
+  {
+    "name": "Sandaconda V",
+    "set": "Fusion Strike",
+    "number": "252/264",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 65
+  },
+  {
+    "name": "Genesect V",
+    "set": "Fusion Strike",
+    "number": "255/264",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 79
+  },
+  {
+    "name": "Greedent V",
+    "set": "Fusion Strike",
+    "number": "257/264",
+    "year": 2021,
+    "rarity": "Alt Art",
+    "hype": 67
+  },
+  {
+    "name": "Honchkrow V",
+    "set": "Brilliant Stars",
+    "number": "162/172",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 74
+  },
+  {
+    "name": "Lumineon V",
+    "set": "Brilliant Stars",
+    "number": "156/172",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 72
+  },
+  {
+    "name": "Beedrill V",
+    "set": "Astral Radiance",
+    "number": "161/189",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 76
+  },
+  {
+    "name": "Unown V",
+    "set": "Silver Tempest",
+    "number": "177/195",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 84
+  },
+  {
+    "name": "Skuntank V",
+    "set": "Silver Tempest",
+    "number": "181/195",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 64
+  },
+  {
+    "name": "Regidrago V",
+    "set": "Silver Tempest",
+    "number": "184/195",
+    "year": 2022,
+    "rarity": "Alt Art",
+    "hype": 72
+  },
+  {
+    "name": "Eevee",
+    "set": "Brilliant Stars Trainer Gallery",
+    "number": "TG11/TG30",
+    "year": 2022,
+    "rarity": "Other",
+    "hype": 95
+  },
+  {
+    "name": "Jolteon",
+    "set": "Brilliant Stars Trainer Gallery",
+    "number": "TG04/TG30",
+    "year": 2022,
+    "rarity": "Other",
+    "hype": 92
+  },
+  {
+    "name": "Flareon",
+    "set": "Brilliant Stars Trainer Gallery",
+    "number": "TG01/TG30",
+    "year": 2022,
+    "rarity": "Other",
+    "hype": 92
+  },
+  {
+    "name": "Vaporeon",
+    "set": "Brilliant Stars Trainer Gallery",
+    "number": "TG02/TG30",
+    "year": 2022,
+    "rarity": "Other",
+    "hype": 92
+  },
+  {
+    "name": "Gengar",
+    "set": "Lost Origin Trainer Gallery",
+    "number": "TG06/TG30",
+    "year": 2022,
+    "rarity": "Other",
+    "hype": 98
+  },
+  {
+    "name": "Pikachu",
+    "set": "Lost Origin Trainer Gallery",
+    "number": "TG05/TG30",
+    "year": 2022,
+    "rarity": "Other",
+    "hype": 98
+  },
+  {
+    "name": "Pikachu",
+    "set": "Crown Zenith",
+    "number": "GG30/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 98
+  },
+  {
+    "name": "Mew",
+    "set": "Crown Zenith",
+    "number": "GG10/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 97
+  },
+  {
+    "name": "Lapras",
+    "set": "Crown Zenith",
+    "number": "GG05/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 84
+  },
+  {
+    "name": "Deoxys",
+    "set": "Crown Zenith",
+    "number": "GG12/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 85
+  },
+  {
+    "name": "Hisuian Zoroark VSTAR",
+    "set": "Crown Zenith",
+    "number": "GG56/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 80
+  },
+  {
+    "name": "Leafeon VSTAR",
+    "set": "Crown Zenith",
+    "number": "GG35/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 90
+  },
+  {
+    "name": "Entei V",
+    "set": "Crown Zenith",
+    "number": "GG36/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 85
+  },
+  {
+    "name": "Raikou V",
+    "set": "Crown Zenith",
+    "number": "GG41/GG70",
+    "year": 2023,
+    "rarity": "Galarian Gallery",
+    "hype": 86
+  },
+  {
+    "name": "Drowzee",
+    "set": "Scarlet & Violet Base Set",
+    "number": "210/198",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 79
+  },
+  {
+    "name": "Ralts",
+    "set": "Scarlet & Violet Base Set",
+    "number": "211/198",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 78
+  },
+  {
+    "name": "Kirlia",
+    "set": "Scarlet & Violet Base Set",
+    "number": "212/198",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 80
+  },
+  {
+    "name": "Slowpoke",
+    "set": "Scarlet & Violet Base Set",
+    "number": "204/198",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 82
+  },
+  {
+    "name": "Gardevoir ex",
+    "set": "Scarlet & Violet Base Set",
+    "number": "245/198",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 89
+  },
+  {
+    "name": "Raichu",
+    "set": "Paldea Evolved",
+    "number": "211/193",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 91
+  },
+  {
+    "name": "Marill",
+    "set": "Paldea Evolved",
+    "number": "204/193",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 85
+  },
+  {
+    "name": "Ninetales",
+    "set": "Obsidian Flames",
+    "number": "199/197",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 87
+  },
+  {
+    "name": "Cleffa",
+    "set": "Obsidian Flames",
+    "number": "202/197",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 76
+  },
+  {
+    "name": "Pidgeot ex",
+    "set": "Obsidian Flames",
+    "number": "225/197",
+    "year": 2023,
+    "rarity": "SIR",
+    "hype": 80
+  },
+  {
+    "name": "Minior",
+    "set": "Paradox Rift",
+    "number": "201/182",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 72
+  },
+  {
+    "name": "Yveltal",
+    "set": "Paradox Rift",
+    "number": "205/182",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 83
+  },
+  {
+    "name": "Morpeko",
+    "set": "Paradox Rift",
+    "number": "206/182",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 80
+  },
+  {
+    "name": "Steelix",
+    "set": "Paradox Rift",
+    "number": "208/182",
+    "year": 2023,
+    "rarity": "IR",
+    "hype": 85
+  },
+  {
+    "name": "Metagross",
+    "set": "Temporal Forces",
+    "number": "178/162",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 82
+  },
+  {
+    "name": "Chansey",
+    "set": "Twilight Masquerade",
+    "number": "187/167",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 85
+  },
+  {
+    "name": "Hisuian Growlithe",
+    "set": "Twilight Masquerade",
+    "number": "181/167",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 83
+  },
+  {
+    "name": "Tatsugiri",
+    "set": "Twilight Masquerade",
+    "number": "186/167",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 80
+  },
+  {
+    "name": "Latios",
+    "set": "Surging Sparks",
+    "number": "203/191",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 87
+  },
+  {
+    "name": "Ceruledge",
+    "set": "Surging Sparks",
+    "number": "197/191",
+    "year": 2024,
+    "rarity": "IR",
+    "hype": 83
+  },
+  {
+    "name": "Mega Chandelure ex",
+    "set": "Pitch Black",
+    "number": "115/084",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 79
+  },
+  {
+    "name": "Gladion's Final Battle",
+    "set": "Pitch Black",
+    "number": "118/084",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 72
+  },
+  {
+    "name": "Slowbro",
+    "set": "Pitch Black",
+    "number": "090/084",
+    "year": 2026,
+    "rarity": "IR",
+    "hype": 84
+  },
+  {
+    "name": "Misty's Vitality",
+    "set": "Pitch Black",
+    "number": "111/084",
+    "year": 2026,
+    "rarity": "Other",
+    "hype": 86
+  },
+  {
+    "name": "Cinccino ex",
+    "set": "Chaos Rising",
+    "number": "119/086",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 70
+  },
+  {
+    "name": "Mega Dragalge ex",
+    "set": "Chaos Rising",
+    "number": "118/086",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 70
+  },
+  {
+    "name": "Mega Floette ex",
+    "set": "Chaos Rising",
+    "number": "117/086",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 71
+  },
+  {
+    "name": "Froakie",
+    "set": "Chaos Rising",
+    "number": "088/086",
+    "year": 2026,
+    "rarity": "IR",
+    "hype": 84
+  },
+  {
+    "name": "Xerneas",
+    "set": "Chaos Rising",
+    "number": "091/086",
+    "year": 2026,
+    "rarity": "IR",
+    "hype": 82
+  },
+  {
+    "name": "Ampharos",
+    "set": "Chaos Rising",
+    "number": "090/086",
+    "year": 2026,
+    "rarity": "IR",
+    "hype": 83
+  },
+  {
+    "name": "Mega Clefable ex",
+    "set": "Perfect Order",
+    "number": "119/088",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 79
+  },
+  {
+    "name": "Mega Starmie ex",
+    "set": "Perfect Order",
+    "number": "118/088",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 81
+  },
+  {
+    "name": "Psyduck",
+    "set": "Ascended Heroes",
+    "number": "226/217",
+    "year": 2026,
+    "rarity": "IR",
+    "hype": 83
+  },
+  {
+    "name": "Mega Feraligatr ex",
+    "set": "Ascended Heroes",
+    "number": "274/217",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 82
+  },
+  {
+    "name": "Mega Meganium ex",
+    "set": "Ascended Heroes",
+    "number": "272/217",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 78
+  },
+  {
+    "name": "Mega Froslass ex",
+    "set": "Ascended Heroes",
+    "number": "275/217",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 79
+  },
+  {
+    "name": "Mega Scrafty ex",
+    "set": "Ascended Heroes",
+    "number": "285/217",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 70
+  },
+  {
+    "name": "Gengar ex",
+    "set": "30th Celebration",
+    "number": "154/128",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 98
+  },
+  {
+    "name": "Pikachu ex",
+    "set": "30th Celebration",
+    "number": "150/128",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 99
+  },
+  {
+    "name": "Mewtwo ex",
+    "set": "30th Celebration",
+    "number": "151/128",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 94
+  },
+  {
+    "name": "Pikachu ex",
+    "set": "30th Celebration",
+    "number": "149/128",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 99
+  },
+  {
+    "name": "Sylveon ex",
+    "set": "30th Celebration",
+    "number": "153/128",
+    "year": 2026,
+    "rarity": "SIR",
+    "hype": 93
+  }
+]

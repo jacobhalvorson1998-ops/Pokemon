@@ -1,0 +1,48 @@
+name: Update Pokémon prices and publish website
+on:
+  schedule:
+    - cron: '23 9 * * *'  # daily, 09:23 UTC; GitHub may delay scheduled jobs
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install updater dependency
+        run: python -m pip install --disable-pip-version-check requests==2.32.5
+      - name: Get provider prices (server-side, avoids browser CORS)
+        run: python scripts/update_data.py
+        env:
+          TICKERMINT_KEY: ${{ secrets.TICKERMINT_KEY }}
+      - name: Save verified card IDs (no price history in Git)
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/resolved_ids.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Card ID catalog update $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy
+        id: deploy
+        uses: actions/deploy-pages@v4

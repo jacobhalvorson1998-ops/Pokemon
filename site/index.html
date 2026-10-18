@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1524" />
+  <meta name="description" content="A personal Pokémon card price correction tracker, showing TCGplayer-derived prices, collector-demand proxies and disciplined buy/wait signals." />
+  <title>PokéRadar · The Card Opportunity Desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="shell">
+  <header class="header">
+    <a class="brand" href="#" aria-label="PokéRadar home">
+      <span class="brand-mark"><span class="brand-pokeball"></span></span>
+      <span class="brand-title">poké<span>radar</span><small>THE COLLECTOR'S EDGE</small></span>
+    </a>
+    <div class="header-right">
+      <div class="refresh-status"><span class="live-dot" id="statusDot"></span><span id="dataStatus">Waiting for data</span></div>
+      <button class="icon-btn" id="helpBtn" aria-label="How it works" title="How it works">?</button>
+      <button class="refresh-btn" id="refreshBtn" title="Reload the latest published price snapshot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 11a8 8 0 0 0-14.4-4.8L3 9M3 4v5h5M4 13a8 8 0 0 0 14.4 4.8L21 15m0 5v-5h-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Refresh</span></button>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-dot"></span>THE POKÉMON CARD OPPORTUNITY DESK <span class="hero-vline"></span> <span>2017 — PRESENT</span></div>
+      <h1>Find the dip.<br/><em>Catch the upside.</em></h1>
+      <p>Track under-$100 Pokémon chase cards, spot meaningful price corrections, and separate possible entry points from falling knives.</p>
+      <div class="hero-tags"><span>RAW MARKET PRICES</span><span>DAILY SNAPSHOTS</span><span>TCGPLAYER LINKS</span></div></div>
+      <div class="hero-visual" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="center-ball"><div class="center-ball-top"></div><div class="ball-band"></div><div class="ball-button"></div></div><div class="float-tile float-a"><span>↘</span><b>30D DIP</b></div><div class="float-tile float-b"><span>◎</span><b>BUY SIGNAL</b></div><div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div></div>
+    </section>
+    <section class="metrics" aria-label="Dashboard statistics">
+      <div class="metric"><span class="metric-label">QUALIFIED UNDER $100 <span class="corner-dot cyan"></span></span><strong id="eligibleStat">—</strong><span class="metric-foot">Verified current price</span></div>
+      <div class="metric"><span class="metric-label">BUY NOW SIGNALS <span class="corner-dot green"></span></span><strong id="buyStat">—</strong><span class="metric-foot">Pullback + stabilization</span></div>
+      <div class="metric"><span class="metric-label">WAIT SIGNALS <span class="corner-dot orange"></span></span><strong id="waitStat">—</strong><span class="metric-foot">Still trending downward</span></div>
+      <div class="metric"><span class="metric-label">BIGGEST 30D DIP <span class="corner-dot violet"></span></span><strong id="dipStat">—</strong><span class="metric-foot" id="dipName">No confirmed data yet</span></div>
+    </section>
+    <section class="workbench">
+      <div class="section-heading"><div><div class="section-kicker">01 / MARKET SCANNER</div><h2>Opportunity board <span class="heading-star">✳</span></h2><p>Every signal is rules-based. Prices come from a published daily snapshot, not estimates.</p></div><div class="board-count" id="boardCount">60 on the scouting roster</div></div>
+      <div class="tabbar" id="tabbar" aria-label="Opportunity status">
+        <button class="tab active" data-tab="all">All eligible <span id="allCount">0</span></button>
+        <button class="tab" data-tab="buy"><span class="tab-dot green"></span>Buy now <span id="buyCount">0</span></button>
+        <button class="tab" data-tab="wait"><span class="tab-dot orange"></span>Wait to buy <span id="waitCount">0</span></button>
+        <button class="tab" data-tab="watch">Watchlist <span id="watchCount">0</span></button>
+        <button class="tab" data-tab="saved">★ Saved <span id="savedCount">0</span></button>
+      </div>
+      <div class="controls">
+        <label class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="searchInput" placeholder="Search Pokémon, set, or card number..." autocomplete="off"/></label>
+        <label class="select-wrap"><span>Rarity</span><select id="raritySelect"><option value="all">All rarities</option><option>IR</option><option>SIR</option><option>Alt Art</option><option>Galarian Gallery</option><option>Other</option></select></label>
+        <label class="select-wrap"><span>Year</span><select id="yearSelect"><option value="all">2017–present</option><option value="2023">2023+</option><option value="2021">2021+</option><option value="2017">2017–2020</option></select></label>
+        <label class="select-wrap sort-wrap"><span>Sort</span><select id="sortSelect"><option value="score">Best opportunity</option><option value="dip">Biggest 30D drop</option><option value="hype">Highest fan demand</option><option value="priceLow">Price: low to high</option><option value="priceHigh">Price: high to low</option><option value="newest">Newest sets first</option></select></label>
+        <button class="export-btn" id="exportBtn" title="Export currently displayed cards as CSV">↧ <span>Export</span></button>
+      </div>
+      <div class="resultbar"><span id="resultText">Loading scouting roster...</span><span class="results-note">★ Save cards to build your personal watchlist</span></div>
+      <div class="cardgrid" id="cardgrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden><span>◎</span><h3>No cards match these filters</h3><p>Try another rarity, year, price range, or signal category.</p><button id="resetFilters">Reset filters</button></div>
+      <div class="more-row" id="moreRow"><button id="moreBtn" class="more-btn">Load more cards <span>↓</span></button></div>
+    </section>
+    <section class="bottom-info">
+      <div class="info-copy"><div class="section-kicker">02 / THE METHODOLOGY</div><h2>Hype matters.<br/><span>Timing matters more.</span></h2><p>PokéRadar looks for meaningful price corrections, then checks whether the latest week suggests stabilization or continued weakness. Popularity is a transparent editorial proxy, not a measured social-media index.</p><button class="text-link" id="methodBtn">Understand the scoring method ↗</button></div>
+      <div class="method-grid"><div class="method-card"><span class="method-num">01</span><span class="method-symbol">↘</span><h3>Price correction</h3><p>30-day movement and drawdown from a rolling 90-day high.</p></div><div class="method-card"><span class="method-num">02</span><span class="method-symbol">♥</span><h3>Fan demand</h3><p>Editorial popularity rating, based on the character’s established collector appeal.</p></div><div class="method-card"><span class="method-num">03</span><span class="method-symbol">〽</span><h3>Trend check</h3><p>7-day momentum distinguishes stability from a price still falling.</p></div><div class="method-card"><span class="method-num">04</span><span class="method-symbol">⌛</span><h3>History confidence</h3><p>No buy signal without enough observed price history.</p></div></div>
+    </section>
+  </main>
+  <footer><div><span class="footer-brand">◒ poké<span>radar</span></span><p>Independent collector research tool. Not affiliated with Pokémon, Nintendo or TCGplayer. No profit or appreciation is guaranteed.</p></div><div class="footer-links"><a href="https://tickermint.cards/?utm_source=built-with" target="_blank" rel="noopener noreferrer">Prices by TickerMint ↗</a><a href="https://www.tcgplayer.com/" target="_blank" rel="noopener noreferrer">TCGplayer ↗</a><span>Personal, noncommercial use</span></div></footer>
+</div>
+<div class="modal-scrim" id="modalScrim" hidden><div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div id="modalContent"></div></div></div>
+<script src="app.js" defer></script>
+</body></html>
